@@ -8,6 +8,7 @@
                         <div class="col-lg-3 col-md-3">
                             <div class="section-tittle mb-30">
                                 <h3>Whats New</h3>
+                                <h4> {{ message }} </h4>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9">
@@ -430,11 +431,6 @@
     <!-- End pagination  -->
 </template>
 
-<script>
-export default {
-    name: 'HomePage',
-
-}
-</script>
+<script src="../js/HomePage.js"> </script>
 
 <style lang="scss" scoped></style>
